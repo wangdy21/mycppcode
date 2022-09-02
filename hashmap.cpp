@@ -1,11 +1,3 @@
-/*
- * @Author: wangdeyi
- * @Date: 2022-07-20 10:57:24
- * @LastEditors: wangdeyi
- * @LastEditTime: 2022-07-20 11:18:59
- * @FilePath: \code\hashmap.cpp
- * @Description: 哈希映射stl实现， unordered_map
- */
 #include <unordered_map>
 #include <iostream>
 #include <vector>
