@@ -5,19 +5,7 @@
 
 using namespace std;
 
-// bool isIsomorphic(string s, string t) {
-//     unordered_map<char,char> hashmap1;
-//     unordered_map<char,char> hashmap2;
-//     for(int i = 0;i < s.size();i++){
-//         if(hashmap1.find(s[i]) != hashmap1.end()){
-//             if(hashmap1[s[i]]!= t[i]&&hashmap2[t[i]]!= s[i])
-//             return false;
-//         }
-//         hashmap1[s[i]] = t[i];
-//         hashmap2[s[i]] = s[i];
-//     }
-//     return true;
-// }
+
 vector<string> findRestaurant(vector<string>& list1, vector<string>& list2) {
        unordered_map<string,int> canting1;
        unordered_map<string,int> canting2;
