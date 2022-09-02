@@ -67,7 +67,7 @@ int main(){
 	    }
 	  }
 
-	  cout << "The right answer number is " << right_ans << endl;
+	  //cout << "The right answer number is " << right_ans << endl;
 	  cout << "The false answer number is " << false_ans << endl;
 	  return 0;
 }
